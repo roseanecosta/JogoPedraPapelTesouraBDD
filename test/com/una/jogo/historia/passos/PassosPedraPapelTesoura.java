@@ -1,4 +1,4 @@
-package com.una.jogo.historias.passos;
+package com.una.jogo.historia.passos;
 
 import com.una.jogo.Jogo;
 import static junit.framework.Assert.assertEquals;
