@@ -1,0 +1,35 @@
+<div class="story">
+<h1>Story: Jogo do Pedra Papel Tesoura <br/>Como jogador gostaria de fazer uma disputa de pedra papel e tesoura<br/>para vencer meu openente.</h1>
+<div class="path">com/una/jogo/estorias/pedra_papel_tesoura.story</div>
+<div class="scenario">
+<h2>Scenario: Generico de pedra papel e tesoura</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given que a primeira jogada for &lt;primeiraJogada&gt;</div>
+<div class="step">When a segunda jogada for &lt;segundaJogada&gt;</div>
+<div class="step">Then exibe a seguinte mensagem &lt;mensagem&gt;</div>
+<table>
+<thead>
+<tr>
+<th>primeiraJogada</th><th>segundaJogada</th><th>mensagem</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>tesoura</td><td>papel</td><td>tesoura corta papel</td></tr>
+<tr>
+<td>pedra</td><td>tesoura</td><td>pedra quebra tesoura</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {primeiraJogada=tesoura, segundaJogada=papel, mensagem=tesoura corta papel}</h3>
+<div class="step pending">Given que a primeira jogada for &lt;primeiraJogada&gt; <span class="keyword pending">(PENDING)</span></div>
+<div class="step notPerformed">When a segunda jogada for &lt;segundaJogada&gt; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then exibe a seguinte mensagem &lt;mensagem&gt; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+
+<h3 class="example">Example: {primeiraJogada=pedra, segundaJogada=tesoura, mensagem=pedra quebra tesoura}</h3>
+<div class="step pending">Given que a primeira jogada for &lt;primeiraJogada&gt; <span class="keyword pending">(PENDING)</span></div>
+<div class="step notPerformed">When a segunda jogada for &lt;segundaJogada&gt; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then exibe a seguinte mensagem &lt;mensagem&gt; <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+</div>
