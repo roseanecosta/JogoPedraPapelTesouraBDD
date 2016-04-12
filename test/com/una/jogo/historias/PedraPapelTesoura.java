@@ -1,6 +1,6 @@
-package com.una.jogo.estorias;
+package com.una.jogo.historias;
 
-import com.una.jogo.estorias.passos.PassosPedPapTes;
+import com.una.jogo.historias.passos.PassosPedPapTes;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.io.LoadFromClasspath;
